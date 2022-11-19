@@ -5,8 +5,8 @@ from reportlab.pdfgen import canvas
 
 banco = mysql.connector.connect(
     host = "localhost",
-    user = "seu usuario",
-    password = "sua senha",
+    user = "",
+    password = "",
     database = "Cadastro"
 )
 
